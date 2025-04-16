@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: url('https://www.bambootravel.co.uk/files/img_cache/53426/1400__1520526723_Evening-view-of-the-Terrace-swimming-pool.jpg?1520526746') center center/cover no-repeat;
+  height: 100vh;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.room-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.room-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.room-card:hover {
+  transform: scale(1.03);
+}
